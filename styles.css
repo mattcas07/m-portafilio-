@@ -45,7 +45,7 @@ nav ul li a {
   text-decoration: none;
   transition: 0.5s ease-in-out;
   border: none;
-  margin: 0px 5px;
+  margin: 0px 8px;
 }
 
 nav ul li a:hover {
@@ -371,7 +371,7 @@ section {
   }
 
   .proyecto h3 {
-    font-size: 28px; /* Tamaño de título de proyecto para tablet */
+    font-size: 25px; /* Tamaño de título de proyecto para tablet */
   }
 
   .proyecto p {
