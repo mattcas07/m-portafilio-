@@ -411,3 +411,88 @@ section {
   }
 
 }
+@media screen and (max-width: 375px) {
+  header h1 {
+    font-size: 24px; /* Tamaño del encabezado para dispositivos con 375px */
+  }
+
+  nav ul li {
+    margin: 10px 0; /* Ajuste del margen entre elementos de navegación para dispositivos con 375px */
+  }
+
+  nav ul li a {
+    font-size: 16px; /* Tamaño de fuente para enlaces de navegación en dispositivos con 375px */
+    margin: 0px 12px; /* Ajuste del margen entre enlaces de navegación para dispositivos con 375px */
+  }
+
+  .container {
+    padding: 0 10px; /* Ajuste del padding lateral para dispositivos con 375px */
+    font-size: 16px; /* Tamaño de fuente para dispositivos con 375px */
+  }
+
+  section {
+    padding: 40px 0; /* Ajuste del padding de las secciones para dispositivos con 375px */
+  }
+
+  section h2 {
+    font-size: 20px; /* Tamaño de título de sección para dispositivos con 375px */
+  }
+
+  .lenguaje {
+    margin: 0 15px; /* Ajuste del margen entre elementos de lenguajes para dispositivos con 375px */
+  }
+
+  .lenguaje img {
+    width: 80px; /* Tamaño de imágenes de lenguajes para dispositivos con 375px */
+    height: 80px;
+    margin-bottom: 10px; /* Ajuste del margen inferior para dispositivos con 375px */
+  }
+
+  .proyecto {
+    padding: 15px; /* Ajuste del padding de los proyectos para dispositivos con 375px */
+  }
+
+  .proyecto h3 {
+    font-size: 18px; /* Tamaño de título de proyecto para dispositivos con 375px */
+  }
+
+  .proyecto p {
+    font-size: 14px; /* Tamaño de texto de proyecto para dispositivos con 375px */
+  }
+
+  footer {
+    padding: 20px 0; /* Ajuste del padding del pie de página para dispositivos con 375px */
+  }
+
+  footer h2 {
+    font-size: 20px; /* Tamaño de título de pie de página para dispositivos con 375px */
+  }
+
+  form input,
+  form textarea {
+    width: 100%; /* Ancho de inputs y textarea al 100% para dispositivos con 375px */
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px; /* Tamaño de fuente para inputs y textarea en dispositivos con 375px */
+  }
+
+  .form-control {
+    width: 100%; /* Ancho de form-control al 100% para dispositivos con 375px */
+    margin: 10px 0 20px;
+  }
+
+  form button {
+    width: 100%; /* Ancho de botones al 100% para dispositivos con 375px */
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px; /* Tamaño de fuente para botones en dispositivos con 375px */
+  }
+
+  .form-control label span {
+    font-size: 16px; /* Tamaño de fuente para etiquetas de form-control en dispositivos con 375px */
+  }
+  #lenguajr {
+      display: none;
+  }
+
+}
