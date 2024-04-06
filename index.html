@@ -1,1 +1,102 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MMMATT - Full Stack Developer</title>
+  <meta name="description" content="Welcome to Mateo's website, the passionate 16-year-old web developer! Here you'll find information about his projects and how to contact him.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Mateo</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Home</a></li>
+          <li><a href="#sobre-mi">About Me</a></li>
+          <li><a href="#lenguajes">Languages</a></li>
+          <li><a href="#proyectos">Projects</a></li>
+          <li><a href="#contacto">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <section id="inicio" class="inicio">
+    <div class="container">
+      <h2>Hello, I'm Mateo</h2>
+      <p>Welcome to my portfolio. I'm a 16-year-old student passionate about programming and web development. Want to know more about me? Keep scrolling!</p>
+    </div>
+  </section>
+  
+  <section id="sobre-mi" class="sobre-mi">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>My name is Mateo and I'm 16 years old. Since I was little, I've been curious about technology, and now I'm learning HTML, CSS, and JavaScript to become a full-stack web developer.</p>
+      <p>When I'm not coding, I enjoy playing video games, learning about new technologies, and going to school.</p>
+    </div>
+  </section>
+  
+  <section id="lenguajes" class="lenguajes">
+    <div class="container">
+      <h2>Languages Used</h2>
+      <div class="lenguajes-container">
+        <div class="lenguaje">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML">
+        </div>
+        <div class="lenguaje">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS">
+        </div>
+        <div class="lenguaje">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="proyectos" class="proyectos">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="proyecto">
+        <h3>Music Player</h3>
+        <a href="https://reproductor-de-musicaa.netlify.app/"><img src="https://i.ibb.co/8gQzyV8/Screenshot-20240406-025254.png" alt="Music Player"></a>
+        <p>Check out my custom music player! You can find it at this link: <a href="https://reproductor-de-musicaa.netlify.app/">Music Player</a></p>
+      </div>
+      <div class="proyecto">
+        <h3>WhatsApp Bot</h3>
+        <a href="https://whatsappdownbot-sepia.vercel.app/"><img src="https://i.ibb.co/WFxRRkS/45465cafaccd641222c22944a32a2117.png" alt="WhatsApp Bot"></a>
+        <p>Also, I've created a WhatsApp bot with Node.js. You can try it out here: <a href="https://whatsappdownbot-sepia.vercel.app/">WhatsApp Bot</a></p>
+      </div>
+    </div>
+  </section>
+  
+  <footer id="contacto" class="contacto">
+    <div class="container">
+      
+      <h2>Contact</h2>
+      <p>Do you want to contact me? Brilliant! You can send me a message through the contact form below:</p>
+      <form action="enviar.php" method="post">
+        <div class="form-control">
+    <input type="value" required="">
+    <label>
+        <span style="transition-delay:0ms">U</span><span style="transition-delay:50ms">s</span><span style="transition-delay:100ms">e</span><span style="transition-delay:150ms">r</span><span style="transition-delay:200ms">n</span><span style="transition-delay:250ms">a</span><span style="transition-delay:300ms">m</span><span style="transition-delay:350ms">e</span>
+    </label>
+        </div>
+<div class="form-control">
+    <input type="value" required="">
+    <label>
+        <span style="transition-delay:0ms">M</span>
+        <span style="transition-delay:50ms">a</span>
+        <span style="transition-delay:100ms">i</span>
+        <span style="transition-delay:150ms">l</span>
+    </label>
+</div>
+        <button type="submit">Send</button><br>
+      </form>
+    </div>
+  </footer>
+  
+  <script src="scripts.js" defer></script>
+</body>
+</html>
