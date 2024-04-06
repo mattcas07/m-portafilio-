@@ -60,6 +60,7 @@ section {
 
 section h2 {
   font-size: 24px;
+  color: #000000;
   margin-bottom: 20px;
 }
 
@@ -92,6 +93,7 @@ form button:hover {
 .lenguajes h2 {
   font-size: 28px;
   margin-bottom: 40px;
+  color: #000000;
 }
 
 .lenguajes-container {
@@ -177,16 +179,24 @@ form button:hover {
   padding: 20px;
   border-radius: 8px;
 }
+.proyectos h2 {
+    font-size: 28px;
+    color: #000000;
+}
 
 .proyecto h3 {
-  font-size: 24px;
+  font-size: 23px;
   margin-bottom: 10px;
+  color: #5d5d5d;
 }
 
 .proyecto p {
   font-size: 16px;
   color: #555;
   margin:10px 0 0 0;
+}
+.proyecto a {
+    color: #000000;
 }
 footer {
     background-color: #003C43; /* Color principal del pie de página */
@@ -229,51 +239,60 @@ section {
   animation: fadeInFromTop 1s ease;
 }
 
+
+
 @media screen and (min-width: 1200px) {
   header {
     padding: 30px 0; /* Aumenta el padding del encabezado para PC */
   }
 
   header h1 {
-    font-size: 48px; /* Aumenta el tamaño del encabezado para PC */
+    font-size: 58px; /* Aumenta el tamaño del encabezado para PC */
   }
-
+    nav ul li {
+        margin: 20px 0;
+    }
   nav ul li a {
-    font-size: 18px; /* Aumenta el tamaño de la fuente en la navegación para PC */
+    font-size: 30px; /* Aumenta el tamaño de la fuente en la navegación para PC */
+    margin: 0px 40px;
+    
   }
 
   .container {
     padding: 0 80px; /* Aumenta el padding lateral para PC */
+    font-size: 30px;
   }
-
   section {
     padding: 80px 0; /* Aumenta el padding de las secciones para PC */
   }
 
   section h2 {
-    font-size: 36px; /* Aumenta el tamaño de los títulos de sección para PC */
+    font-size: 50px; /* Aumenta el tamaño de los títulos de sección para PC */
   }
-
   .lenguaje {
-    margin: 0 30px; /* Aumenta el espacio entre los elementos de lenguajes para PC */
+    margin: 0 50px; /* Aumenta el espacio entre los elementos de lenguajes para PC */
   }
-
+  .container h2 {
+      font-size: 50px;
+  }
   .lenguaje img {
-    width: 120px; /* Aumenta el tamaño de las imágenes de lenguajes para PC */
-    height: 120px;
-    margin-bottom: 30px;
+    width: 250px; /* Aumenta el tamaño de las imágenes de lenguajes para PC */
+    height: 250px;
+    margin-bottom: 10px;
   }
 
   .proyecto {
     padding: 30px; /* Aumenta el padding de los proyectos para PC */
   }
-
+  .proyecto h2 {
+      font-size: 50px;
+  }
   .proyecto h3 {
-    font-size: 28px; /* Aumenta el tamaño de los títulos de proyecto para PC */
+    font-size: 40px; /* Aumenta el tamaño de los títulos de proyecto para PC */
   }
 
   .proyecto p {
-    font-size: 18px; /* Aumenta el tamaño del texto de proyecto para PC */
+    font-size: 30px; /* Aumenta el tamaño del texto de proyecto para PC */
   }
 
   footer {
@@ -281,7 +300,7 @@ section {
   }
 
   footer h2 {
-    font-size: 36px; /* Aumenta el tamaño de los títulos de pie de página para PC */
+    font-size: 50px; /* Aumenta el tamaño de los títulos de pie de página para PC */
   }
 
   form input,
@@ -289,7 +308,7 @@ section {
     width: 100%; /* Ajusta el ancho de los inputs y textarea al 100% para PC */
     margin-bottom: 20px;
     padding: 15px;
-    font-size: 18px;
+    font-size: 30px;
   }
 
   .form-control {
@@ -301,6 +320,12 @@ section {
     width: 100%; /* Ajusta el ancho de los botones al 100% para PC */
     margin-top: 20px;
     padding: 15px;
-    font-size: 18px;
+    font-size: 30px;
+  }
+  .form-control label span {
+      font-size: 30px;
+  }
+  .form-control input {
+      font-size: 30px;
   }
 }
