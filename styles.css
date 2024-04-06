@@ -1,0 +1,230 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E3FEF7;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #003C43; /* Color principal del encabezado */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 32px;
+}
+nav ul {
+  list-style: none;
+  margin: 10px 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 10px 0;
+}
+
+/* Estilos de los enlaces en la navegación */
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  border: none;
+  margin: 0px 8px;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* Estilos de las secciones */
+section {
+  padding: 60px 0;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos del formulario de contacto */
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+form button {
+  background-color: #77B0AA;
+  color: #fff;
+  border: none;
+  padding: 10px 40px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto; /* Centra el botón y añade un espacio de 20px en la parte inferior */
+}
+form button:hover {
+  background-color: #135D66; /* Cambiado para resaltar el color en el hover */
+}
+/* Estilos de la sección de lenguajes */
+.lenguajes {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.lenguajes h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.lenguajes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lenguaje {
+  margin: 0 20px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.lenguaje:hover {
+  transform: skewX(12deg);
+}
+
+.lenguaje img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.lenguaje p {
+  font-size: 18px;
+}
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 190px;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #727272 solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: lightblue;
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  color: #727272;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+  color: lightblue;
+  transform: translateY(-30px);
+}
+/* Estilos de las imágenes de los proyectos */
+.proyecto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Estilos de los contenedores de los proyectos */
+.proyecto {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.proyecto h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.proyecto p {
+  font-size: 16px;
+  color: #555;
+  margin:10px 0 0 0;
+}
+footer {
+    background-color: #003C43; /* Color principal del pie de página */
+    color: #E3FEF7; /* Color del texto en el pie de página */
+}
+footer h2 {
+    padding-top:20px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section {
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeInFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeIn {
+  opacity: 1 !important;
+}
+
+.fadeIn {
+  animation: fadeInFromTop 1s ease;
+}
