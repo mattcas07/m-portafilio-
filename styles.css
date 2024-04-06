@@ -227,4 +227,78 @@ section {
 
 .fadeIn {
   animation: fadeInFromTop 1s ease;
+}@media screen and (min-width: 1200px) {
+  header {
+    padding: 30px 0; /* Aumenta el padding del encabezado para PC */
+  }
+
+  header h1 {
+    font-size: 48px; /* Aumenta el tamaño del encabezado para PC */
+  }
+
+  nav ul li a {
+    font-size: 18px; /* Aumenta el tamaño de la fuente en la navegación para PC */
+  }
+
+  .container {
+    padding: 0 80px; /* Aumenta el padding lateral para PC */
+  }
+
+  section {
+    padding: 80px 0; /* Aumenta el padding de las secciones para PC */
+  }
+
+  section h2 {
+    font-size: 36px; /* Aumenta el tamaño de los títulos de sección para PC */
+  }
+
+  .lenguaje {
+    margin: 0 30px; /* Aumenta el espacio entre los elementos de lenguajes para PC */
+  }
+
+  .lenguaje img {
+    width: 120px; /* Aumenta el tamaño de las imágenes de lenguajes para PC */
+    height: 120px;
+    margin-bottom: 30px;
+  }
+
+  .proyecto {
+    padding: 30px; /* Aumenta el padding de los proyectos para PC */
+  }
+
+  .proyecto h3 {
+    font-size: 28px; /* Aumenta el tamaño de los títulos de proyecto para PC */
+  }
+
+  .proyecto p {
+    font-size: 18px; /* Aumenta el tamaño del texto de proyecto para PC */
+  }
+
+  footer {
+    padding: 60px 0; /* Aumenta el padding del pie de página para PC */
+  }
+
+  footer h2 {
+    font-size: 36px; /* Aumenta el tamaño de los títulos de pie de página para PC */
+  }
+
+  form input,
+  form textarea {
+    width: calc(50% - 10px); /* Divide el ancho del formulario para PC */
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  .form-control {
+    width: calc(50% - 10px); /* Divide el ancho del formulario para PC */
+    margin: 20px 0 40px;
+  }
+
+  form button {
+    width: calc(50% - 10px); /* Divide el ancho del botón para PC */
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 18px;
+  }
 }
