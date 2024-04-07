@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   const sections = document.querySelectorAll('section');
-  
+
   sections.forEach(section => {
     section.style.opacity = 0;
     section.style.transform = 'translateY(-50px)';
@@ -20,11 +20,11 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 document.addEventListener('scroll', function() {
   const sections = document.querySelectorAll('section');
-  
+
   sections.forEach(section => {
     const sectionTop = section.getBoundingClientRect().top;
     const windowHeight = window.innerHeight;
-    
+
     if (sectionTop < windowHeight * 0.8) {
       section.classList.add('fadeIn');
     } else {
